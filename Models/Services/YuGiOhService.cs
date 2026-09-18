@@ -6,7 +6,7 @@ namespace ProyectoExamenApi.Models.Services;
 
 public class YuGiOhService
 {
-    private const int PageSize = 8;
+    private const int PageSize = 20;
     private readonly HttpClient _httpClient;
     private readonly string _cardInfoUrl;
 
